@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Acadêmico - IFPB</title>
+</head>
+
+<body>
+    Nome:<input id="nome"><br>
+    Id:<input id="id" type="number"><br>
+    <button onclick="controladorDisciplina.adicionar()">Cadastrar</button>
+    
+    <ol id="listaDisciplinas">
+    </ol>
+    
+    <script src="model/aluno.js"></script>
+    <script src="model/disciplina.js"></script>
+    <script src="repository/aluno.repository.js"></script>
+    <script src="repository/disciplina.repository.js"></script>
+    <script src="services/disciplina.service.js"></script>
+    <script src="services/aluno.service.js"></script>
+    <script src="controller/disciplina.controller.js"></script>
+    <script src="controller/aluno.controller.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

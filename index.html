@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MVC | PWEB-I </title>
+</head>
+<body>
+    Nome:<input id="nome"><br>
+    Idade:<input id="idade" type="number"><br>
+    Matrícula:<input id="matricula"><br>
+    <button onclick="controller.adicionar()">Cadastrar</button>
+    <button onclick="controller.listarAlunosMenoresIdade()">Mostrar Menores</button>
+    <ol id="listaAlunos">
+    </ol>
+    <ul id="listaAlunosMenores">
+    </ul>
+    <script src="model/aluno.js"></script>
+    <script src="model/disciplina.js"></script>
+    <script src="repository/aluno.repository.js"></script>
+    <script src="repository/disciplina.repository.js"></script>
+    <script src="services/aluno.service.js"></script>
+    <script src="services/disciplina.service.js"></script>
+    <script src="controller/disciplina.controller.js"></script>
+    <script src="controller/aluno.controller.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
